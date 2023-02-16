@@ -5,7 +5,7 @@
     align-items: center;
     background: var(--color-black);
 
-    padding: 1rem 2 rem;
+    padding: 1rem 2rem;
 }
 
 .app__navbar-logo {
@@ -17,3 +17,4 @@
 .app__navbar-logo img {
     width: 150px;
 }
+
