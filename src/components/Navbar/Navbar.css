@@ -45,7 +45,7 @@
 .app__navbar-login a {
     margin: 0 1rem;
     text-decoration: none;
-    transition: 0.5s ease;
+    transition: .5s ease;
 }
 
 .app__navbar-login a:hover {
@@ -55,7 +55,7 @@
 .app__navbar-login div {
     width: 1px;
     height: 30px;
-    background-color: var(--color-gray);
+    background: var(--color-grey);
 }
 
 .app__navbar-smallscreen {
@@ -69,7 +69,7 @@
     width: 100%;
     height: 100vh;
     background: var(--color-black);
-    transition: 0.5s ease;
+    transition: .5s ease;
 
     flex-direction: column;
     z-index: 5;
@@ -113,7 +113,7 @@
         display: none;
     }
 
-    .app__Navbar-smallscreen {
+    .app__navbar-smallscreen {
         display: flex;
     }
 }
