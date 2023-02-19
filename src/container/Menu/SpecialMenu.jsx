@@ -19,6 +19,24 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
+
+      <div className="app__specialMenu-menu_img">
+          <img src={images.menu} alt="menu img" />
+      </div>
+
+      <div className="app__specialMenu-menu_coctails flex__center">
+        <p className="app__specialMenu-menu_heading">Wine & Beer</p>
+        <div className="app__specialMenu-menu items">
+          {data.coctails.map((coctail, index) => (
+            <p>{coctail.title}</p>
+          ))}
+        </div>
+      </div>
+
+    </div>
+
+    <div style={{marginTop: '15px'}}>
+      <button type="button" className="custom__button">View More</button>
     </div>
   </div>
 );
