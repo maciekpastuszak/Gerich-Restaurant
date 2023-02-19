@@ -44,7 +44,7 @@
     height: auto;
 }
 
-.app__specialMenu-menu_items {
+.app__specialMenu_menu_items {
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
