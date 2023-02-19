@@ -1,4 +1,4 @@
-.app__SpecialMenu {
+.app__specialMenu {
     flex-direction: column;
     background: var(--color-black);
 }
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.app__SpecialMenu-menu {
+.app__specialMenu-menu {
     width: 100%;
     margin: 2rem 0;
     display:  flex;
