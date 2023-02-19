@@ -4,7 +4,7 @@ import { SubHeading, MenuItem } from '../../components';
 import './SpecialMenu.css';
 
 const SpecialMenu = () => (
-  <div className="app__specialMenu flex__center section __padding" id="menu">
+  <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits your palette" />
         <h1 className="headtext__cormorant">Today's Special</h1>
@@ -27,8 +27,8 @@ const SpecialMenu = () => (
       <div className="app__specialMenu-menu_coctails flex__center">
         <p className="app__specialMenu-menu_heading">Wine & Beer</p>
         <div className="app__specialMenu-menu items">
-          {data.coctails.map((coctail, index) => (
-            <p>{coctail.title}</p>
+          {data.cocktails.map((cocktail, index) => (
+            <p>{cocktail.title}</p>
           ))}
         </div>
       </div>
