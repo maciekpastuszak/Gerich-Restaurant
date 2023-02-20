@@ -33,7 +33,7 @@ const Intro = () => {
         onClick={handleVideo}
         >
           {playVideo ? (
-            <BsFillPlayFill color="#fff" fontSize={30}/>
+            <BsPauseFill color="#fff" fontSize={30}/>
           ) : <BsFillPlayFill color="#fff" fontSize={30}/>}
         </div>
       </div>
