@@ -72,3 +72,26 @@
 .app__gallery-images_card:hover .gallery__image-icon {
     opacity: 1;
 }
+
+.app__gallery-images_arrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 1rem;
+    position: absolute;
+    bottom: 5%;
+}
+
+.gallery__arrow-icon {
+    color: var(--color-golden);
+    font-size: 2rem;
+    cursor: pointer;
+    background: var(--color-black);
+    border-radius: 5px;
+}
+
+.gallery__arrow-icon:hover {
+    color: var(--color-white);
+}
