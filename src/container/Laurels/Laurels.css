@@ -20,7 +20,7 @@
     height: 50px;
 }
 
-.app__laurels_awards-content {
+.app__laurels_awards-card_content {
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
