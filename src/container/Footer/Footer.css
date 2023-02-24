@@ -14,7 +14,7 @@
 
 .app__footer-links {
     width: 100%;
-    display: fle;
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
     
