@@ -1,4 +1,4 @@
-# Gericht Restaurant - a beautifull and modern restaurant front page
+# Gericht Restaurant - a beautiful and modern restaurant front page
 
 ## Introduction
 This is a code repository for an nonexistent restaurant named Gerich. 
